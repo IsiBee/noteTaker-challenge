@@ -4,10 +4,11 @@ const { v4: uuidv4 } = require('uuid');
 
 const {
     validateNote,
-    createNote
+    createNote,
+    removeNote
 } = require('../../lib/notes.js');
 
-const notes = require('../../db/db.json');
+let notes = require('../../db/db.json');
 
 router.get('/notes', (req, res) => {
     res.json(notes);
@@ -25,6 +26,15 @@ router.post('/notes', (req, res) => {
         const note = createNote(req.body, notes);
         res.json(note);
     }
+});
+
+router.delete('/notes/:id', (req, res) => {
+    const id = req.params.id;
+    // updates the json file and removes the deleted note
+    notes = removeNote(id);
+    // displays updated notes to front end.
+    res.json(notes);
+
 });
 
 module.exports = router;
