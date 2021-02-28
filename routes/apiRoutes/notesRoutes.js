@@ -5,13 +5,12 @@ const { v4: uuidv4 } = require('uuid');
 const {
     validateNote,
     createNote
-} = require('../../lib/notes');
+} = require('../../lib/notes.js');
 
-const { notes } = require('../../db/db')
+const notes = require('../../db/db.json');
 
 router.get('/notes', (req, res) => {
-    let results = fs.readFile('../../db/db.json');
-    res.json(results);
+    res.json(notes);
 });
 
 router.post('/notes', (req, res) => {
