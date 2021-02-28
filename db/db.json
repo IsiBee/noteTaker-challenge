@@ -1,12 +1,32 @@
 [
   {
-    "title": "BRO ",
-    "text": "NO",
-    "id": "0fa65633-a8bf-4579-9ced-a23e425d9568"
+    "title": "This is a Note",
+    "text": "Note 1",
+    "id": "9ea03e78-a5c5-4b98-86d7-af8cf030cd74"
   },
   {
-    "title": "Queen Isabelle",
-    "text": "for the win",
-    "id": "bea17164-c648-4a6a-b8b2-db0b0549cbf0"
+    "title": "This is another note",
+    "text": "Note 2",
+    "id": "20b6d7f6-bcb8-41b6-bcb9-ef17b48c9c7d"
+  },
+  {
+    "title": "Third Note",
+    "text": "You are very busy today",
+    "id": "917b96d9-8175-4bd1-992c-8a29cf7a0579"
+  },
+  {
+    "title": "Many notes",
+    "text": "So many things to do so little time",
+    "id": "0ebb8584-b914-4d95-a5b9-d07f9f79d288"
+  },
+  {
+    "title": "Time is of the Essence",
+    "text": "Yes, it's true",
+    "id": "46bf5678-3131-484d-9fc9-7046ce888079"
+  },
+  {
+    "title": "The Utah Jazz",
+    "text": "Should win this season.",
+    "id": "d44950ca-b939-4505-b74c-872a4663ad11"
   }
 ]
