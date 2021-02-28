@@ -10,9 +10,9 @@ Creating the APIs was pretty straightforward, having the front end mostly built 
 ### Screenshot
 The image below are of Saved Notes in the NoteTaker app
 
-![HighScore Display](./public/assets/images/NoteTaker_Notes?raw=true "Notes")
+![NoteTaker Notes](./public/assets/images/NoteTaker_Notes.png?raw=true "Notes")
 
 ### Access Application
 
 * https://github.com/IsiBee/noteTaker-challenge - Github Repo
-* 
+* https://shrouded-brushlands-55734.herokuapp.com/ - Deployed App - Heroku
